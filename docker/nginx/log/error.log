@@ -1,0 +1,62 @@
+2018/06/13 10:05:53 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/06/13 10:07:09 [error] 5#5: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "127.0.0.1"
+2018/06/13 10:07:09 [error] 5#5: *4 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "127.0.0.1"
+2018/06/13 10:07:34 [error] 5#5: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "127.0.0.1"
+2018/06/13 10:07:34 [error] 5#5: *4 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "127.0.0.1"
+2018/06/13 10:10:15 [error] 5#5: *7 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "127.0.0.1"
+2018/06/13 10:10:15 [error] 5#5: *10 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "127.0.0.1"
+2018/06/13 10:10:18 [error] 5#5: *7 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "127.0.0.1"
+2018/06/13 10:10:18 [error] 5#5: *10 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "127.0.0.1"
+2018/06/13 10:11:55 [error] 5#5: *12 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "127.0.0.1"
+2018/06/13 10:11:55 [error] 5#5: *15 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "127.0.0.1"
+2018/06/13 10:12:45 [error] 5#5: *12 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "127.0.0.1"
+2018/06/13 10:12:45 [error] 5#5: *15 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "127.0.0.1"
+2018/06/13 10:13:03 [error] 5#5: *12 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "127.0.0.1"
+2018/06/13 10:13:03 [error] 5#5: *15 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "127.0.0.1"
+2018/06/13 10:13:44 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/06/13 10:13:51 [error] 5#5: *4 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 172.17.0.1, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "127.0.0.1"
+2018/06/13 10:26:47 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/06/14 03:02:29 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/06/14 03:02:43 [error] 5#5: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.4:9000", host: "127.0.0.1"
+2018/06/14 03:07:19 [warn] 770#770: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/06/14 03:07:25 [warn] 771#771: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/06/14 03:07:25 [notice] 771#771: signal process started
+2018/06/14 03:07:25 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/06/14 03:08:06 [warn] 773#773: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/06/14 03:08:08 [warn] 774#774: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/06/14 03:08:08 [notice] 774#774: signal process started
+2018/06/14 03:08:08 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/06/14 03:08:13 [error] 775#775: *9 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "127.0.0.1"
+2018/06/14 03:12:27 [error] 775#775: *12 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "127.0.0.1"
+2018/06/14 03:12:31 [error] 775#775: *12 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "127.0.0.1"
+2018/06/14 03:12:32 [error] 775#775: *12 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "127.0.0.1"
+2018/06/14 03:12:52 [error] 775#775: *12 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "127.0.0.1"
+2018/06/14 03:14:39 [warn] 776#776: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/06/14 03:14:39 [notice] 776#776: signal process started
+2018/06/14 03:14:39 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/06/14 03:14:46 [error] 777#777: *20 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "127.0.0.1"
+2018/06/14 03:14:47 [error] 777#777: *20 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "127.0.0.1"
+2018/06/14 03:15:35 [warn] 778#778: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/06/14 03:15:35 [notice] 778#778: signal process started
+2018/06/14 03:15:36 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/06/14 03:15:40 [error] 779#779: *23 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "127.0.0.1"
+2018/06/14 03:15:42 [error] 779#779: *23 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "127.0.0.1"
+2018/06/14 03:16:48 [warn] 780#780: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/06/14 03:16:48 [notice] 780#780: signal process started
+2018/06/14 03:16:48 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/06/14 03:17:33 [error] 781#781: *27 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "127.0.0.1"
+2018/06/14 03:18:02 [error] 781#781: *27 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "127.0.0.1"
+2018/06/14 03:20:08 [warn] 782#782: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/06/14 03:20:10 [warn] 783#783: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/06/14 03:20:10 [notice] 783#783: signal process started
+2018/06/14 03:20:10 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/06/14 03:20:18 [error] 784#784: *32 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "127.0.0.1"
+2018/06/14 03:20:20 [error] 784#784: *32 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "127.0.0.1"
+2018/06/14 03:21:47 [error] 784#784: *36 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "127.0.0.1"
+2018/06/14 03:22:19 [warn] 790#790: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/06/14 03:22:19 [notice] 790#790: signal process started
+2018/06/14 03:22:19 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2018/06/14 03:22:23 [error] 791#791: *39 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "127.0.0.1"
+2018/06/14 03:22:52 [error] 791#791: *39 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "127.0.0.1"
+2018/06/14 03:48:10 [error] 791#791: *44 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "127.0.0.1"
+2018/06/14 03:48:12 [error] 791#791: *44 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.17.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.17.0.2:9000", host: "127.0.0.1"
