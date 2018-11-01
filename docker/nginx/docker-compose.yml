@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+
+  nginx:
+    image: "nginx"
+    ports:
+      - "80:80"
+    volumes:
+      - $PWD/html:/usr/share/nginx/html
+      - $PWD/conf:/etc/nginx
+      - $PWD/logs:/var/log/nginx
+    depends_on:
+      - php-fpm
+    external_links:
+      - php-fpm:php-fpm-container
+
+  php-fpm:
+    image: "php:5.6-fpm"
+    volumes:
+      - $PWD/html:/var/www/html
+      - $PWD/php.conf:/usr/local/etc
